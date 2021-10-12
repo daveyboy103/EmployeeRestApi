@@ -3,5 +3,12 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::24204614-8F6B-43FD-8738-9D238A831C1C::net5.0::EmployeeTests.Integration.EmployeeIntegration.ShouldReturnListOfEmployees&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::24204614-8F6B-43FD-8738-9D238A831C1C::net5.0::EmployeeTests.Integration.EmployeeIntegration.ShouldReturnSpecificEmployee&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::24204614-8F6B-43FD-8738-9D238A831C1C::net5.0::EmployeeTests.Integration.EmployeeIntegration.ShouldUpdateEmployee&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::24204614-8F6B-43FD-8738-9D238A831C1C::net5.0::EmployeeTests.Integration.ApiIntegration.ShouldGetListOfEmployees&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::24204614-8F6B-43FD-8738-9D238A831C1C::net5.0::EmployeeTests.Integration.ApiIntegration.ShouldGetspecifEmployees&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::24204614-8F6B-43FD-8738-9D238A831C1C::net5.0::EmployeeTests.Integration.ApiIntegration.ShouldGetSpecificEmployees&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::24204614-8F6B-43FD-8738-9D238A831C1C::net5.0::EmployeeTests.PropertyBagTests.PropertyBagTests.ShouldInitialiseToEmpty&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::24204614-8F6B-43FD-8738-9D238A831C1C::net5.0::EmployeeTests.PropertyBagTests.PropertyBagTests.ShouldAddAndRetrieveCustomType&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::24204614-8F6B-43FD-8738-9D238A831C1C::net5.0::EmployeeTests.PropertyBagTests.PropertyBagTests.ShouldThrowExceptionForWrongTypeRetrieval&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

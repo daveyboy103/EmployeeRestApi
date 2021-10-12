@@ -43,6 +43,31 @@ namespace EmployeeApi.Data
 
             return employee;
         }
+
+        public async Task<Employee> UpdateEmployee(Employee employee)
+        {
+            await Task.Factory.StartNew(() =>
+            {
+                string connectionString = _configuration.GetConnectionString("DBConnection");
+                
+                using var conn = new SqlConnection(connectionString);
+                
+                conn.Open();
+                string sql = $"update Employees set FirstName = '{employee.FirstName}', " +
+                             $"LastName = '{employee.LastName}' where EmployeeID = {employee.EmployeeId}";
+
+                using var cmd = new SqlCommand(sql, conn);
+
+                int ret = cmd.ExecuteNonQuery();
+
+                if (ret <= 0)
+                    throw new DataException("Failed to update record");
+
+            });
+
+            return employee;
+        }
+
         public async Task<IEnumerable<Employee>> GetEmployees()
         {
             var ret = new List<Employee>();

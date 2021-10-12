@@ -29,6 +29,7 @@ namespace EmployeeApi
         {
             services.AddControllers();
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "EmployeeApi", Version = "v1" });

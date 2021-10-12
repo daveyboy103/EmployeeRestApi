@@ -9,8 +9,8 @@ using Microsoft.Extensions.Logging;
 
 namespace EmployeeApi.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
+    [ApiController]
     public class EmployeeController : ControllerBase
     {
         private readonly ILogger<EmployeeController> _logger;
@@ -32,7 +32,30 @@ namespace EmployeeApi.Controllers
             catch (Exception e)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError,
-                    "Error retrieving data from the database. Details: {e.Message}");
+                    $"Error retrieving data from the database. Details: {e.Message}");
+            }
+        }
+
+        [HttpPut("{id:int}")]
+        public async Task<ActionResult<Employee>> UpdateEmployee(int id, Employee employee)
+        {
+            try
+            {
+                if (id != employee.EmployeeId)
+                    return BadRequest("Employee ID mismatch");
+                
+                var employeeToUpdate = await _employeeRepository.GetEmployee(id);
+
+                if (employeeToUpdate == null)
+                    return NotFound($"Employee with Id = {id} not found");
+
+                return await _employeeRepository.UpdateEmployee(employee);
+
+            }
+            catch (Exception e)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    $"Error retrieving data from the database. Details: {e.Message}");
             }
         }
 
