@@ -1,0 +1,12 @@
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/EmployeeApi/EmployeeModels/bin/Debug/net5.0/EmployeeModels.deps.json
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/EmployeeApi/EmployeeModels/bin/Debug/net5.0/EmployeeModels.dll
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/EmployeeApi/EmployeeModels/bin/Debug/net5.0/ref/EmployeeModels.dll
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/EmployeeApi/EmployeeModels/bin/Debug/net5.0/EmployeeModels.pdb
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/EmployeeApi/EmployeeModels/obj/Debug/net5.0/EmployeeModels.csproj.AssemblyReference.cache
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/EmployeeApi/EmployeeModels/obj/Debug/net5.0/EmployeeModels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/EmployeeApi/EmployeeModels/obj/Debug/net5.0/EmployeeModels.AssemblyInfoInputs.cache
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/EmployeeApi/EmployeeModels/obj/Debug/net5.0/EmployeeModels.AssemblyInfo.cs
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/EmployeeApi/EmployeeModels/obj/Debug/net5.0/EmployeeModels.csproj.CoreCompileInputs.cache
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/EmployeeApi/EmployeeModels/obj/Debug/net5.0/EmployeeModels.dll
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/EmployeeApi/EmployeeModels/obj/Debug/net5.0/ref/EmployeeModels.dll
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/EmployeeApi/EmployeeModels/obj/Debug/net5.0/EmployeeModels.pdb
